@@ -1,4 +1,3 @@
-import { colors } from '@angelino-ui/tokens'
 import { ComponentProps } from 'react'
 import { styled } from './styles'
 
@@ -30,7 +29,3 @@ export const Button = styled('button', {
 })
 
 export type ButtonProps = ComponentProps<typeof Button>
-
-export function App() {
-  return <h1 style={{ color: colors.ignite300 }}>Hello World!</h1>
-}
