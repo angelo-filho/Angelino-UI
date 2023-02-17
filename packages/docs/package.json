@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "dev": "start-storybook -p 6006",
+    "build": "build-storybook"
   },
   "keywords": [],
   "author": "",
@@ -25,6 +25,8 @@
     "vite": "^4.1.1"
   },
   "dependencies": {
+    "@angelino-ui/react": "*",
+    "@angelino-ui/tokens": "*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
