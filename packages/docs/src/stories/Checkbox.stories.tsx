@@ -5,11 +5,6 @@ export default {
   title: 'Form/Checkbox',
   component: Checkbox,
 
-  args: {
-    src: 'https://github.com/angelo-filho.png',
-    alt: 'Angelo Filho',
-  },
-
   decorators: [
     (Story) => {
       return (
