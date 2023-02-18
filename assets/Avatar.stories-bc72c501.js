@@ -1,0 +1,2 @@
+import{A as t}from"./index-22216687.js";import"./index-63eeef1a.js";import"./es.object.get-own-property-descriptor-366a41fe.js";import"./index-05d07f04.js";import"./jsx-runtime-a49d27ee.js";const l={title:"Data display/Avatar",component:t,args:{src:"https://github.com/angelo-filho.png",alt:"Angelo Filho"},argTypes:{src:{control:{type:"text"}}}},p={},c={args:{src:void 0}},e=["Primary","WithFallBack"];export{p as Primary,c as WithFallBack,e as __namedExportsOrder,l as default};
+//# sourceMappingURL=Avatar.stories-bc72c501.js.map
