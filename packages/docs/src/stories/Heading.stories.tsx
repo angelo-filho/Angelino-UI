@@ -5,8 +5,18 @@ export default {
   title: 'Typography/Heading',
   component: Heading,
 
+  argTypes: {
+    size: {
+      options: ['sm', 'md', 'lg', '2xl', '3xl', '4xl', '5xl', '6xl'],
+      control: {
+        type: 'inline-radio',
+      },
+    },
+  },
+
   args: {
     children: 'Custom title',
+    size: 'md',
   },
 } as Meta<HeadingProps>
 
